@@ -1,0 +1,68 @@
+
+.navbar {
+                  margin-bottom: 0;
+                  border-radius: 0;
+                  background-color: #FFDE7A;
+                  }
+
+form {
+ 	width: 500px;
+ 	margin: auto;
+ }
+
+ legend {
+ 	width: auto;
+ 	font-family:'Parisienne', cursive;
+ 	font-size: 2em;
+ 	color: #6B1518;
+ }
+.disMoi{
+ padding:0 20px 20px 20px;
+ margin-bottom:10px;
+ border:5px solid #FFDE7A;
+ border-radius: 10px;
+ }
+
+/* une petite marge au dessus de la liste déroulantes*/
+ select {
+ margin-top:10px;
+ }
+ .textarea {
+	width: 455px;
+	height: 80px;
+}
+
+select {
+	height: 2em;
+ 	background-color:#FFF3F3;
+ }
+/* on cale les champs nom, prenom… pour qu'ils s'alignent*/
+fieldset .name input[type=text] {
+	margin-left: 3.4em;
+}
+fieldset .surname input[type=text] {
+	margin-left: 1.4em;
+}
+fieldset .mail input[type=email] {
+	margin-left: 2.85em;
+}
+/* les boutons Envoyer et Annuler*/
+input[type=submit], input[type=reset] {
+ width:120px;
+ margin-left: 2em;
+ box-shadow:1px 1px 1px #D83F3D;
+ cursor:pointer;
+ font-family:'Parisienne', cursive;
+ font-size: 1.4em;
+ color: #6B1518;
+
+ }
+
+
+ /*footer */
+ .pied{
+  text-align: center;
+  background-color: #FFDE7A;
+  font-size: 1em;
+  padding: 25px;
+}

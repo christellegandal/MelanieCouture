@@ -1,0 +1,193 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: cursive sans-serif;
+	color: #6B1518 ;
+	font-size: 18px;
+	background-image: url(image/photoMel.png);
+	background-size: cover;
+}
+
+header {
+	min-height: 100vh;
+	background-color: #FFDE7A;
+
+}
+
+nav {
+	height: 80px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-weight: bold;
+
+
+}
+
+nav ul {
+	margin: auto;
+}
+
+nav li {
+	display: inline-block;
+	height: 80px;
+	line-height: 80px;
+	margin-right: 130px;
+	opacity: 0.7;
+
+}
+
+nav li:hover {
+	opacity: 1;
+}
+
+#logo {
+	font-size: 30px;
+  margin-left: 700px;
+	margin-top: inherit;
+}
+
+/*#button {
+	opacity: 1;
+}
+
+#contact {
+	opacity: 1;
+	display: block;
+	color: white;
+	font-size: 18px;
+	background-color: rgba(0,0,0,0);
+	text-decoration: none;
+	border: 1px solid white;
+	border-radius: 5px;
+	height: 45px;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+aside {
+	padding: 25px
+  ;
+	box-sizing: border-box;
+	float: right;
+	width: 500px;
+	min-height: 400px;
+	background-color: white;
+	color: black;
+	border-radius: 6px;
+	margin-right: 160px;
+	margin-top: 110px;
+}
+
+aside p {
+	text-align: center;
+
+}
+
+input {
+	padding-left: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 100%;
+	height: 40px;
+	font-size: 18px;
+	border: 1px solid #d0d5d6;
+	border-radius: 5px;
+}
+
+input[type="submit"]
+{
+	height: 50px;
+	border: 0px;
+	background-color: #00b137;
+	color: white;
+	font-weight: bold;
+}*/
+
+h1 {
+	font-size: 3em;
+  margin-left: 150px;
+  padding-left: 10px;
+}
+
+h2 {
+font-family: cursive sans-serif;
+color: #6B1518 ;
+}
+
+p {
+  font-family: cursive sans-serif;
+  color: #6B1518 ;
+}
+
+.div-categoryContainer{
+	box-sizing: border-box;
+	margin: 10px auto 10px;
+	padding: 10px;
+	width: 80%; min-height: 300px;
+
+	font-family: sans-serif;
+	font-size: 1em;
+	color: #333;
+
+	background-color: #EEE;
+}
+
+.picture1{
+	border: none;
+	float: left;
+	margin-right: 40px;
+}
+
+  .pitcure2 {
+float: left;
+
+  }
+.clearfix{
+	margin: 0, padding 0;
+	width: 0; height: 0;
+}
+
+@keyframes masuperanimation {
+    0% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(500px);
+    }
+}
+
+#wago
+{
+    margin: 100px;
+    width: 200px;
+    height: 150px;
+    background-color: #FFDE7A;
+}
+
+#wago:hover
+{
+    animation: masuperanimation 2s; /* On utilise "ma super animation" définie plus tôt */
+}
+/*s#titre {
+	margin-top: 180px;
+	margin-left: 180px;
+	width: 600px;
+}
+
+#titre p {
+	font-size: 22px;
+	line-height: 32px;
+}
+
+p a {
+	color: black;
+	text-decoration-color: #e0e3e3;
+}*/
+#wago {
+  font-size: 30px;
+  margin-left: 700px;
+  margin-top: inherit;
+}

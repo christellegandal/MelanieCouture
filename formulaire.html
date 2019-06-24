@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+      <html lang="en">
+          <head>
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link type="text/css" rel="stylesheet" href="style.css">
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+                <link rel="stylesheet" type="text/css" href="css/formu.css">
+    <title>formulaire</title>
+</head>
+
+<body>
+              <nav class="navbar navbar-inverse">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">Logo</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Accueil</a></li>
+                    <li><a href="confections.html">Confections</a></li>
+                    <li><a href="transformations.html">Transformations</a></li>
+                    <li><a href="retouches.html">Retouches</a></li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="formulaire.html"><span class="glyphicon glyphicon-log-in"></span> Contactez moi</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+
+<form id="contactForm" onsubmit="return validate()" action="contact.php" method="post" >
+
+  <fieldset class="disMoi">
+    <legend> Dites moi </legend>
+      <p>Sélectionnez ici: 
+          <select name="creation" id="creation"> <!--listes déroulantes-->
+            <optgroup label="Confections">
+              <option value="robe_mariee">Robe de mariée</option>
+              <option value="tenue_soiree">Tenue de soirée</option>
+              <option value="robe_espagnole">Robe espagnole</option>
+              <option value="robe_orientale">Robe orientale</option>
+              <option value="robe_espagnole">Accessoires</option>
+              <option value="costume_homme">Costume homme</option>
+            </optgroup>
+
+            <optgroup label="Transformations">
+            </optgroup>
+
+            <optgroup label="Retouches">
+            </optgroup>
+          </select>
+      </p>
+      <p>
+      <label for="commentaire">Votre demande en quelques mots</label></br>
+      <textarea class="textarea" name="commentaire" id="commentaire"></textarea>
+      </p>  
+
+
+
+    <legend>Coordonn&eacute;es :</legend>
+      <p class="name">
+      <label for="nom">Nom :</label>
+      <input type="text" name="nom" id="nom" size="30" autofocus="" />
+      </p>
+              <!--autofocus place le curseur automatiquement ds le champ,
+              required indique qu'il faut obligatoirement remplir ce champ voir fonction css pour required, invalid, focus-->
+
+      <p class="surname" >
+      <label for="prenom">Pr&eacute;nom :</label>
+      <input type="text" name="prenom" id="prenom" size="30" maxlength="13" >
+      </p>
+
+      <p class="bigo">T&eacute;l&eacute;phone :
+      <input type="tel" name="tel" id="tel" size="30" maxlength="13">
+      </p>
+
+      <p class="mail">
+      <label for="email">Email :</label>
+      <input type="email" name="email" size="30" maxlength="30" value="email" id="email" />
+      </p>
+    
+  </fieldset>
+
+  <p>
+  <input type="submit" value="Envoyer" />
+  <input type="reset" value="Annuler" />
+  </p>
+</form>
+
+
+<footer class="pied">
+    <a href="#" target="_blank">Politique de confidentialité</a>
+    <a href="ML.html" target="_blank">Mentions Légales</a>
+    <a href="CGV.html" target="_blank">CGV</a>
+ </footer>
+
+</body>
+</html>
