@@ -1,10 +1,7 @@
-/*jQuery(function() {
-        jQuery.getScript('http://kikiefendiclock.googlecode.com/files/www.kikiyo.co.cc.cursor-bintang-silver.js');
-      });*/
+ScrollReveal().reveal('h2', {duration: 8000, opacity: .1, origin:'topw'});
 
-      const images= Img.querySelectorAll('img');
-      images.forEach((image)=>{
-    Img.addEventListener('click',(event)=>{
-      event.currentTarget.classlist.toggle('img-circle');
-      });
-  });
+
+/*      const images= document.querySelector('.img');
+      images.addEventListener('click',(event)=>{
+      images.style.borderRadius="50%";
+    });*/

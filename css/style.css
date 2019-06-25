@@ -5,7 +5,7 @@
 et les polices; 'Parisienne' et 'Oswald'*/
 
 body{
-  font-family: cursive;
+  font-family: 'Playfair Display', serif;
 }
 
 /*header {
@@ -119,6 +119,8 @@ p {
 	background-color: #FFDEAD;
 }
 
+
+
 .picture1{
 	border: none;
 	float: left;
@@ -175,9 +177,8 @@ float: left;
   font-size: 1.6em;
 }
 
-img.circle {
-  border-radius: 50%;
-  transition: 0.4s;
+#image {
+  border-radius: 30%;
 }
 
 .ML {
