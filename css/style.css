@@ -8,15 +8,27 @@ body{
   font-family: cursive;
 }
 
+/*header {
+	margin: 0;
+	padding: 0;
+
+}*/
+
+.logo  {
+  background-color: #FFDE7A;
+	font-size: 30px;
+  margin-left: -700px;
+	margin-top: inherit;
+
+}
 
 .tete {
 
-	background-color: #FFFFFF;
+	background-color: #FFDE7A;
   font-family: cursive sans-serif;
   color: #6B1518 ;
   font-size: 18px;
   text-align: center;
-  background-color: #FFDE7A;
   font-size: 1em;
   padding: 25px;
 
@@ -42,24 +54,24 @@ nav li {
 	line-height: 80px;
 	margin-right: 130px;
 	opacity: 0.7;
-
+  font-family: cursive;
+  font-size: 1.6em;
+  color: #6B1518;
 }
 
-nav li:hover {
+nav a{
+  color: #FFF;
+}
+
+nav li a:hover {
 	opacity: 1;
-}
-
-#logo {
-  background-color: #FFDE7A;
-	font-size: 30px;
-  margin-left: 700px;
-	margin-top: inherit;
-
+  color:#6B1518;
+  text-decoration: none;
 }
 
 
 .carousel-inner img {
-  width: 40%; /* taille des images  */
+  width: 30%; /* taille des images  */
   margin: auto;
   min-height:200px;
 }
@@ -104,7 +116,7 @@ p {
 	font-size: 1em;
 	color: #333;
 
-	background-color: #EEE;
+	background-color: #FFDEAD;
 }
 
 .picture1{
@@ -147,12 +159,12 @@ float: left;
 
 #wago:hover
 {
-    animation: masuperanimation 2s; /* On utilise "ma super animation" définie plus tôt */
+    animation: masuperanimation 8s; /* On utilise "ma super animation" définie plus tôt */
 }
 
 #wago {
   font-size: 30px;
-  margin-left: 590px;
+  margin-left: 540px;
   margin-top: inherit;
 }
 
@@ -163,10 +175,30 @@ float: left;
   font-size: 1.6em;
 }
 
+img.circle {
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+.ML {
+  color: #FFF;
+}
 /*code de Myriam*/
 .pied{
   text-align: center;
   background-color: #FFDE7A;
-  font-size: 1em;
+  font-size: 1.6em;
   padding: 25px;
+
+}
+
+footer a{
+    color: #FFF;
+    padding: 70px;
+}
+
+footer a:hover {
+	opacity: 1;
+  color:#6B1518;
+  text-decoration: none;
 }

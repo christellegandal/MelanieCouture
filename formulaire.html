@@ -8,40 +8,35 @@
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
+                <link rel="stylesheet" type="text/css" href="css\style.css"/>
                 <link rel="stylesheet" type="text/css" href="css/formu.css">
     <title>formulaire</title>
-</head>
 
-<body>
-              <nav class="navbar navbar-inverse">
-              <div class="container-fluid">
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                  <a class="navbar-brand" href="#">Logo</a>
-                </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                  <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Accueil</a></li>
-                    <li><a href="confections.html">Confections</a></li>
-                    <li><a href="transformations.html">Transformations</a></li>
-                    <li><a href="retouches.html">Retouches</a></li>
-                  </ul>
-                  <ul class="nav navbar-nav navbar-right">
-                    <li><a href="formulaire.html"><span class="glyphicon glyphicon-log-in"></span> Contactez moi</a></li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
+  </head>
+  <body>
+    <header class="tete">
+        <div id="logo">
+          <img src="image\logoMel.png" alt="">
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Accueil<a></li>
+            <li><a href="confections.html">Confections</a></li>
+            <li><a href="transformations.html">Transformations</a></li>
+            <li><a href="retouches.html">Retouches</a></li>
+            <li><a href="formulaire.html"><span class="glyphicon glyphicon-log-in"></span> Contactez moi</a></li>
+          </ul>
+        </nav>
+
+      </header>
+
+  <br>
 
 <form id="contactForm" onsubmit="return validate()" action="contact.php" method="post" >
 
   <fieldset class="disMoi">
     <legend> Dites moi </legend>
-      <p>Sélectionnez ici: 
+      <p>Sélectionnez ici:
           <select name="creation" id="creation"> <!--listes déroulantes-->
             <optgroup label="Confections">
               <option value="robe_mariee">Robe de mariée</option>
@@ -62,7 +57,7 @@
       <p>
       <label for="commentaire">Votre demande en quelques mots</label></br>
       <textarea class="textarea" name="commentaire" id="commentaire"></textarea>
-      </p>  
+      </p>
 
 
 
@@ -87,7 +82,7 @@
       <label for="email">Email :</label>
       <input type="email" name="email" size="30" maxlength="30" value="email" id="email" />
       </p>
-    
+
   </fieldset>
 
   <p>
@@ -95,13 +90,15 @@
   <input type="reset" value="Annuler" />
   </p>
 </form>
-
-
+<br>
 <footer class="pied">
     <a href="#" target="_blank">Politique de confidentialité</a>
     <a href="ML.html" target="_blank">Mentions Légales</a>
     <a href="CGV.html" target="_blank">CGV</a>
  </footer>
 
+<script src="css\mel.js"></script>
+
 </body>
-</html>
+
+    </html>

@@ -1,4 +1,11 @@
+body {
 
+  background-image: url(image\formulaire.png);
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
 .navbar {
                   margin-bottom: 0;
                   border-radius: 0;
@@ -8,6 +15,7 @@
 form {
  	width: 500px;
  	margin: auto;
+  background-color: #FFFFFF;
  }
 
  legend {
@@ -60,9 +68,22 @@ input[type=submit], input[type=reset] {
 
 
  /*footer */
- .pied{
+
+.pied{
   text-align: center;
   background-color: #FFDE7A;
-  font-size: 1em;
+  font-size: 1.6em;
   padding: 25px;
+
+}
+
+footer a{
+    color: #FFF;
+    padding: 70px;
+}
+
+footer a:hover {
+	opacity: 1;
+  color:#6B1518;
+  text-decoration: none;
 }
